@@ -1,0 +1,6 @@
+usr/local/bin/sphere-qt usr/bin
+share/pixmaps/sphere32.xpm usr/share/pixmaps
+share/pixmaps/sphere16.xpm usr/share/pixmaps
+share/pixmaps/sphere128.png usr/share/pixmaps
+debian/sphere-qt.desktop usr/share/applications
+debian/sphere-qt.protocol usr/share/kde4/services/

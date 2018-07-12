@@ -1,6 +1,6 @@
 all:
-	$(MAKE) -C .. dash_test
+	$(MAKE) -C .. sphere_test
 clean:
-	$(MAKE) -C .. dash_test_clean
+	$(MAKE) -C .. sphere_test_clean
 check:
-	$(MAKE) -C .. dash_test_check
+	$(MAKE) -C .. sphere_test_check

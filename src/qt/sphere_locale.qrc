@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/sphere_bg.qm</file>
+        <file alias="de">locale/sphere_de.qm</file>
+        <file alias="en">locale/sphere_en.qm</file>
+        <file alias="es">locale/sphere_es.qm</file>
+        <file alias="fi">locale/sphere_fi.qm</file>
+        <file alias="fr">locale/sphere_fr.qm</file>
+        <file alias="it">locale/sphere_it.qm</file>
+        <file alias="ja">locale/sphere_ja.qm</file>
+        <file alias="pl">locale/sphere_pl.qm</file>
+        <file alias="pt">locale/sphere_pt.qm</file>
+        <file alias="ru">locale/sphere_ru.qm</file>
+        <file alias="sk">locale/sphere_sk.qm</file>
+        <file alias="sv">locale/sphere_sv.qm</file>
+        <file alias="vi">locale/sphere_vi.qm</file>
+        <file alias="zh_CN">locale/sphere_zh_CN.qm</file>
+        <file alias="zh_TW">locale/sphere_zh_TW.qm</file>
+    </qresource>
+</RCC>

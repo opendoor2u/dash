@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Sphere
+Comment=Sphere P2P Cryptocurrency
+Comment[fr]=Sphere, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Sphere, eşten eşe kriptografik sanal para birimi
+Exec=sphere-qt %u
+Terminal=false
+Type=Application
+Icon=sphere128
+MimeType=x-scheme-handler/sphere;
+Categories=Office;Finance;
