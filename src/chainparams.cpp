@@ -126,8 +126,11 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x000003935aa6d71e4112e5240e271a2de9d3f66a1975340fe69e182509e89c34"));
         assert(genesis.hashMerkleRoot == uint256S("0xa03204702b8fa5d86e3c718f3bee7b2cedfdcc97b32a497c9dd6c80b6a474ef0"));
 
-		vSeeds.clear();
-        // vSeeds.push_back(CDNSSeedData("sphere.org", "dnsseed.sphere.org"));
+		
+        vSeeds.push_back(CDNSSeedData("18.217.100.49", "18.217.100.49"));
+		vSeeds.push_back(CDNSSeedData("18.217.100.49", "18.217.100.49"));
+		vSeeds.push_back(CDNSSeedData("18.217.100.49", "18.217.100.49"));
+		vSeeds.push_back(CDNSSeedData("18.217.100.49", "18.217.100.49"));
         // vSeeds.push_back(CDNSSeedData("spheredot.io", "dnsseed.spheredot.io"));
         // vSeeds.push_back(CDNSSeedData("masternode.io", "dnsseed.masternode.io"));
         // vSeeds.push_back(CDNSSeedData("spherepay.io", "dnsseed.spherepay.io"));
@@ -228,8 +231,8 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
- //       vSeeds.push_back(CDNSSeedData("spheredot.io",  "testnet-seed.spheredot.io"));
- //       vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
+        vSeeds.push_back(CDNSSeedData("92.242.40.110", "18.217.100.49"));
+ //     vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
 
         // Testnet Sphere addresses start with 'y'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);
