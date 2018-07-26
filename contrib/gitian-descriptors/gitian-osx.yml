@@ -1,5 +1,5 @@
 ---
-name: "sphere-osx-0.12"
+name: "sphere-osx-0.1.1.1"
 enable_cache: true
 suites:
 - "trusty"
