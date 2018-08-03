@@ -58,7 +58,7 @@ color:#333;
 }
 
 QToolBar > QToolButton:checked {
-background-color:#cf9d3d;
+background-color:#bb8319;
 color:#fff;
 font-weight:bold;
 }
@@ -85,6 +85,7 @@ background-color:transparent;
 
 .QValidatedLineEdit, .QLineEdit { /* Text Entry Fields */
 border: 1px solid #eac680;
+border-radius:3px;
 font-size:11px;
 min-height:25px;
 outline:0;
@@ -132,6 +133,7 @@ border:1px solid #333;
 
 QComboBox { /* Dropdown Menus */
 border:1px solid #eac680;
+border-radius:3px;
 padding: 3px 5px 3px 5px;
 background:#fcfcfc;
 min-height:25px;
@@ -279,7 +281,7 @@ background-color:transparent;
 
 QHeaderView::section { /* Table Header Sections */
 qproperty-alignment:center;
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #1070B0, stop: 1 #cf9d3d);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #f3bc52, stop: 1 #cf9d3d);
 color:#fff;
 min-height:25px;
 font-weight:bold;
