@@ -50,10 +50,9 @@ margin:0;
 QToolBar > QToolButton {
 background-color:#fff;
 border:1px solid #ce8400;
-border-radius:3px 3px 0px 0px;
 min-height:2.5em;
 min-width: 8em;
-padding: 0em;
+padding: 0em 1em;
 /*font-weight:bold;*/
 color:#ce8400;
 }
