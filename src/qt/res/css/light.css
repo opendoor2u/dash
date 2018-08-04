@@ -50,12 +50,12 @@ margin:0;
 QToolBar > QToolButton {
 background-color:#fff;
 border:1px solid #ce8400;
-border-radius:3px;
+border-radius:3px 3px 0 0;
 min-height:2.5em;
 min-width: 8em;
 padding: 0em 1em;
 /*font-weight:bold;*/
-color:#333;
+color:#ce8400;
 }
 
 QToolBar > QToolButton:checked {
@@ -1294,11 +1294,13 @@ color:#333;
 min-height:25px;
 margin-right:5px;
 padding-right:5px;
+border:1px solid #eac680;
+border-radius:3px
 }
 
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins .QLabel#amountLabel {
-color: #fff;
-background-color:#999;
+color: #333;
+background-color:#f9e2b9;
 }
 
 QStackedWidget#SendCoinsEntry .QValidatedLineEdit#payTo { /* Pay To Input Field */
