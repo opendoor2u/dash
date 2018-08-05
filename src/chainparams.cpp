@@ -266,10 +266,10 @@ public:
             boost::assign::map_list_of
             (    0, uint256S("0x00000c22cbb3e634a22c428f254e68cb830c39b069c9824b1f264939383c52e9")),
 
- //           1533495602, // * UNIX timestamp of last checkpoint block
- //           0,     // * total number of transactions between genesis and last checkpoint
- //                       //   (the tx=... number in the SetBestChain debug.log lines)
- //           500         // * estimated number of transactions per day after checkpoint
+            1533495602, // * UNIX timestamp of last checkpoint block
+            0,     // * total number of transactions between genesis and last checkpoint
+                        //   (the tx=... number in the SetBestChain debug.log lines)
+            500         // * estimated number of transactions per day after checkpoint
         };
 
     }
